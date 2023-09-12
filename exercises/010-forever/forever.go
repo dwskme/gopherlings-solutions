@@ -21,6 +21,7 @@ func main() {
 	i := 0
 	for i <= 3 {
 		fmt.Println(i) // Prints out numbers 0 to 3
-		// Did we forget to add 1 to something?
+	  i++	
+    // Did we forget to add 1 to something?
 	}
 }

@@ -17,7 +17,7 @@ import "fmt"
 
 func main() {
 	const tuesdayDiscount = 0.50 // 50% discount! Wow!
-	isTuesday := 1
+	isTuesday :=true 
 
 	price := 32.00
 	// fix this condition to accept numbers:

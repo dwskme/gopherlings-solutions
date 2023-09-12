@@ -10,17 +10,17 @@
 
 package main
 
-import "fmt"
+import ("fmt";"math")
 
 func main() {
 	// In Go variable names must start with a letter.
-	const 20number = 20
-	fmt.Println(math.Sin(20number))
+	const number20 = 20
+	fmt.Println(math.Sin(number20))
 
 	const abc = "abc"
 	fmt.Println(abc)
 
-	const sum = abc + "tyk"
+  sum := abc + "tyk"
 	fmt.Println(sum)
 
 	// Something's wrong here- an attempt to
