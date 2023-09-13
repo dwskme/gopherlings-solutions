@@ -22,7 +22,8 @@ func main() {
 	// This prevented us from printing unsanitized input! To sanitize
 	// call `sanitize` on unsafeInput to obtain a "safe" string!
 	unsafeInput := "stupid compiler"
-	PrintSafe(unsafeInput)
+  safeString:=sanitize(unsafeInput)
+	PrintSafe(safeString)
 }
 
 type safe string

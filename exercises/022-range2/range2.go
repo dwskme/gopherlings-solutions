@@ -20,7 +20,7 @@ func main() {
 	// v inside this for block to replace
 	// map accesses and print out fruits scoring
 	// higher than 7.
-	for k, v := range fruitScores {
+	for k, _ := range fruitScores {
 		if fruitScores[k] > 7 {
 			fmt.Println(k, " has score ", fruitScores[k])
 		}
